@@ -30,7 +30,7 @@
 <br>
 
 <p align="center">
-  <img alt="Auth NestJS" src=".github/github-explorer.png" width="80%">
+  <img alt="Auth NestJS" src=".github/github-explorer.png">
 </p>
 
 ## 🚀 Tecnologias
