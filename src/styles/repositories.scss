@@ -7,7 +7,7 @@ section.repository-list {
 
   div.repository-container {
     display: grid;
-    grid-gap: 50px;
+    grid-gap: 32px;
     grid-template-columns: auto auto auto;
     padding: 10px;
 
@@ -15,9 +15,17 @@ section.repository-list {
       display: flex;
       flex-direction: column;
       background-color: #fff;
-      border-radius: 4px;
-      padding: 10px;
-      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+      border-radius: 6px;
+      padding: 16px;
+      border: 1px solid #d0d7de;
+
+      a {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        font-weight: bold;
+        color: #8257e6;
+      }
 
       p {
         font-size: 14px;
@@ -25,11 +33,21 @@ section.repository-list {
         margin-top: 8px;
       }
 
-      a {
-        display: inline-block;
+      div.repository-info {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
         margin-top: 16px;
-        text-decoration: none;
-        color: #8257e6;
+
+        p {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+
+          & + p {
+            margin-left: 16px;
+          }
+        }
       }
     }
   }
