@@ -50,7 +50,7 @@ Esse projeto é uma listagem simples de repositórios desenvolvido durante o pri
 
 ### Requisitos
 
-- instale as dependências do projeto: `yarn install` ou apenas `yarn`.
+- instale as dependências do projeto: `yarn install` ou `yarn`.
 - para rodar a aplicação: `yarn dev`.
 - a aplicação estará disponível no endereço: `http://localhost:8080`.
 
