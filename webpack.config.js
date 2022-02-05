@@ -1,10 +1,10 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
-const isDevelopment = process.env.NODE_ENV !== 'production';
+// const isDevelopment = process.env.NODE_ENV !== 'production';
 
 module.exports = {
-  mode: isDevelopment ? 'development' : 'production',
+  mode: 'development',
   entry: path.resolve(__dirname, 'src', 'index.jsx'),
   output: {
     path: path.resolve(__dirname, 'dist'),
@@ -12,6 +12,9 @@ module.exports = {
   },
   resolve: {
     extensions: ['.js', '.jsx']
+  },
+  devServer: {
+    static: path.resolve(__dirname, 'public'),
   },
   plugins: [
     new HtmlWebpackPlugin({
