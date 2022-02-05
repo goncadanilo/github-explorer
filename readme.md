@@ -44,7 +44,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-Esse projeto é uma listagem simples de repositórios desenvolvido durante o primeiro módulo do Ignite, um treinamento da [Rocketseat](https://www.rocketseat.com.br/), para reforçar os Fundamentos de ReactJS.
+Esse projeto é uma listagem simples de repositórios desenvolvido durante o primeiro módulo do Ignite, um treinamento da [Rocketseat](https://www.rocketseat.com.br/), para reforçar os fundamentos de ReactJS.
 
 ## ⚡ Como rodar
 
