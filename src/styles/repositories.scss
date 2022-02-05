@@ -1,0 +1,36 @@
+section.repository-list {
+  margin: 40px;
+
+  h1 {
+    margin-bottom: 16px;
+  }
+
+  div.repository-container {
+    display: grid;
+    grid-gap: 50px;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+
+    div.repository-item {
+      display: flex;
+      flex-direction: column;
+      background-color: #fff;
+      border-radius: 4px;
+      padding: 10px;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+
+      p {
+        font-size: 14px;
+        color: #444;
+        margin-top: 8px;
+      }
+
+      a {
+        display: inline-block;
+        margin-top: 16px;
+        text-decoration: none;
+        color: #8257e6;
+      }
+    }
+  }
+}
