@@ -46,13 +46,34 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 Esse projeto é uma listagem simples de repositórios desenvolvido durante o primeiro módulo do Ignite, um treinamento da [Rocketseat](https://www.rocketseat.com.br/), para reforçar os fundamentos de ReactJS.
 
-## ⚡ Como rodar
+## 🔧 Como rodar
 
-### Requisitos
+É necessário ter instalado:
+- [Git](https://git-scm.com)
+- [Node.js](https://nodejs.org/)
+- [Yarn](https://yarnpkg.com/)
 
-- instale as dependências do projeto: `yarn install` ou `yarn`.
-- para rodar a aplicação: `yarn dev`.
-- a aplicação estará disponível no endereço: `http://localhost:8080`.
+### 🗂 Faça um clone do projeto
+
+```bash
+$ git clone https://github.com/goncadanilo/github-explorer
+```
+
+### 📥 Instale as dependências
+```bash
+# Acesse o diretório do projeto
+$ cd github-explorer
+
+# Instale as dependências
+$ yarn
+```
+
+### ⚡ Inicie a aplicação
+```bash
+$ yarn dev
+```
+
+A aplicação estará disponível no endereço: http://localhost:8080.
 
 ## 📝 Licença
 
