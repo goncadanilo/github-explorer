@@ -40,7 +40,9 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-Esse projeto é uma listagem simples de repositórios desenvolvido para reforçar os fundamentos de ReactJS. Durante o desenvolvimento pode reforçar conteúdos como, a estrutura base de uma aplicação React utilizando ferramentas como Webpack, Babel, Webpack Dev server, SASS, Source Maps, Fast Refresh e conceitos importantes do React como componentes, propriedades, estados e hooks além de aplicar o TypeScript no projeto para adicionar tipagem estática à aplicação.
+Esse projeto é uma listagem simples de repositórios desenvolvido para reforçar os fundamentos de ReactJS. 
+
+Durante o desenvolvimento pode reforçar conteúdos como, a estrutura base de uma aplicação React utilizando ferramentas como Webpack, Babel, Webpack Dev server, SASS, Source Maps, Fast Refresh e conceitos importantes do React como componentes, propriedades, estados e hooks além de aplicar o TypeScript no projeto para adicionar tipagem estática à aplicação.
 
 ## 🔧 Como rodar
 
